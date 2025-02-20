@@ -1,0 +1,39 @@
+:root {
+    --cream: #c7a07a;
+    --bg: #e2ceb1;
+    --shadow: 0 2px 2px rgba(0, 0, 0 / 0.5);
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.hero {
+    min-height: 100vh;
+    background-color: var(--bg);
+}
+
+.hero h1 {
+    font-family: 'Rouge Script', cursive;
+    font-size: 6rem;
+}
+
+.hero h4 {
+    font-size: 1.6rem;
+}
+
+.hero p {
+    font-size: 1.4rem;
+}
+
+.hero a {
+    color: var(--cream);
+    background-color: #391e10;
+}
+
+.hero a:hover {
+    background-color: var(--cream);
+    color: #391e10;
+}
